@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+.form-control {
+  display: inline-block;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  -webkit-transform: all 0.5s;
+  -moz-transform: all 0.5s;
+  transform: all 0.5s;
+}
+.form-select {
+  display: inline-block;
+  padding: 8px 5px;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.form-group {
+  position: relative;
+}
+.input-error {
+  position: absolute;
+  color: red;
+  font-weight: 500;
+  bottom: -27px;
+  left: 0px;
+  font-size: 13px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.input-error.display {
+  opacity: 1;
+}
+.label-form {
+  display: inline-block;
+  color: #626060;
+}
+.form-control:focus,
+.form-control:hover {
+  box-shadow: 0px 0px 10px #0075ffb8;
+}
+.form-group-inline {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.page-form {
+  background: #eee;
+  height: 100vh;
+  padding: 50px 0px;
+}
+.page-form .form-title {
+  color: #767676;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+.table-form {
+  width: 500px;
+  margin: auto;
+}
+
+.table-form td {
+  padding: 18px 0px;
+}
+.table-form td.button {
+  text-align: right;
+}
+.table-form td.button .btn {
+  color: #fff;
+  padding: 8px 29px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 5px;
+}
+.table-form td.button .btn.btn-submit {
+  background-color: #198754;
+}
+.table-form td.button .btn.btn-reset {
+  background-color: #dc3545;
+}
